@@ -1,0 +1,30 @@
+{
+  "name": "drgomesp/micrum",
+  "description": "A full-fledged CQRS and Event-Sourcing framework for PHP",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Daniel Ribeiro",
+      "email": "drgomesp@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2",
+    "ext-json": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8.0@dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Micrum\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Micrum\\Tests\\": "tests/"
+    }
+  },
+  "license": "MIT",
+  "minimum-stability": "dev"
+}
